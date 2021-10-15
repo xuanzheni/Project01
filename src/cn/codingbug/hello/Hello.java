@@ -18,7 +18,7 @@ public class Hello {
         Date date = new Date();
         List<Object> list = new ArrayList<>();
 //        list.add();
-        try (FileInputStream fis = new FileInputStream("hello.txt")) {
+        try (FileInputStream fis = new FileInputStream("123hello.txt")) {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
